@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litmol"
+version = "0.1.0"
+description = "PubChem molecular similarity and substructure search client"
+requires-python = ">=3.8"
+dependencies = ["requests>=2.25"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
